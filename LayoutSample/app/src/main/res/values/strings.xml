@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LayoutSample</string>
+    <string name="textviewtext">Relative Layout Sample</string>
+</resources>

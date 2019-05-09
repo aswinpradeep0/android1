@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:columnCount="2"
+    android:rowCount="2"
+    tools:context=".GridLayoutActivity">
+    <TextView
+        android:text="Contact"
+        android:textColor="@color/colorAccent"
+        android:textSize="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_columnSpan="2"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:text="Name : "
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:text="ABC Developers"
+        android:textColor="#ffffff"
+        android:textSize="25dp"/>
+    <TextView
+        android:text="Email : "
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:text="abc@gmail.com"
+        android:textColor="#ffffff"
+        android:textSize="25dp"/>
+    <TextView
+        android:text="Mobile : "
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:text="9539624802"
+        android:textColor="#ffffff"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="50dp"
+        android:text="Sponsors"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorAccent"/>
+    <ImageView
+        android:src="@drawable/log1"
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="70dp"/>
+    <ImageView
+        android:src="@drawable/log3"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="100dp"/>
+
+</GridLayout>

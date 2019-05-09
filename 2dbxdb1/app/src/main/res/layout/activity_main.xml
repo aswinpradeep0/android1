@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:text="STUDENT DATABASE"
+           android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+       <EditText
+           android:id="@+id/txtid"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="id" />
+
+       <EditText
+           android:id="@+id/txtname"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="name" />
+
+       <EditText
+           android:id="@+id/txtsub"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="subject" />
+
+       <Button
+           android:id="@+id/btnviewall"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:onClick="onbtnviewall"
+           android:text="VIEW ALL" />
+
+       <Button
+           android:id="@+id/tnread"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:onClick="onbtnread"
+           android:text="READ" />
+
+       <Button
+           android:id="@+id/btnadd"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:onClick="onbtnadd"
+           android:text="ADD" />
+
+       <Button
+           android:id="@+id/btndelete"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:onClick="onbtndelete"
+           android:text="DELETE" />
+
+       <Button
+           android:id="@+id/btnupdate"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:onClick="onbtnupdate"
+           android:text="UPDATE" />
+
+
+
+
+
+
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

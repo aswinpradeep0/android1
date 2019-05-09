@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Details"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp" />
+    <EditText
+        android:hint="Roll No"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etRollNo"/>
+    <EditText
+        android:hint="Student Name"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etName"/>
+    <EditText
+        android:hint="Course"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etCourse"/>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:columnCount="2">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:onClick="onAddBtnClicked"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginRight="15dp"
+            android:textColor="#ffffff"
+            android:text="Add"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="onReadBtnClicked"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
+            android:text="Read"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="onUpdateBtnClicked"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
+            android:text="Update"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="onDeleteBtnClicked"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
+            android:text="Delete"/>
+    </GridLayout>
+
+</LinearLayout>

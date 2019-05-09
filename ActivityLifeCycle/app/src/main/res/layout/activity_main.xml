@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Prime Number Series"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numEdit1"
+        android:inputType="number"
+        android:hint="Enter Number 1"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Number 2"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/numEdit2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:id="@+id/checkButton1"/>
+</LinearLayout>
